@@ -1,6 +1,20 @@
 #include<iostream>
 using namespace std;
 
+string mixText(string A,string B){
+	if(A.size() == B.size()){
+		string s = "";
+		int t = 0;
+		while(t < A.size()){
+			cout << s+A[t]+B[t];
+			t++;
+		}
+	}else{
+		return "E";
+	}
+	return "";
+} 
+
 
 
 
